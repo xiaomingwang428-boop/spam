@@ -82,31 +82,20 @@ PROVIDERS = {
         api_key_env="DEEPSEEK_API_KEY",
         base_url_env="DEEPSEEK_BASE_URL",
         model_env="DEEPSEEK_MODEL",
-        default_base_url="https://api.deepseek.com",
-        default_model="deepseek-v4-flash",
-        max_tokens_field="max_tokens",
+
     ),
     "openai": ProviderConfig(
         name="OpenAI",
         api_key_env="OPENAI_API_KEY",
         base_url_env="OPENAI_BASE_URL",
         model_env="OPENAI_MODEL",
-        default_base_url="https://api.highwayapi.ai/openai",
-        default_model="gpt-5.6-luna-es",
-        max_tokens_field="max_completion_tokens",
+
     ),
     "doubao": ProviderConfig(
         name="Doubao",
         api_key_env="ARK_API_KEY",
         base_url_env="ARK_BASE_URL",
         model_env="DOUBAO_MODEL",
-        default_base_url="https://ark.cn-beijing.volces.com/api/v3",
-        default_model="doubao-seed-2-1-pro-260628",
-        max_tokens_field="max_tokens",
-        default_batch_size=1,
-        default_max_chars=800,
-        default_max_output_tokens=200,
-        default_compact=True,
     ),
 }
 
