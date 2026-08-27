@@ -49,33 +49,12 @@ python -m pip install -r requirements.txt
 ## Local Baselines
 
 ```powershell
-python paper_baseline_classifier.py --methods all --limit 1000
+python paper_baseline_classifier.py --methods all 
 ```
 
 ```powershell
 python paper_baseline_classifier.py --methods all
 ```
-
-## GPT Few-Shot Experiment
-
-```powershell
-$env:OPENAI_API_KEY = "your_api_key"
-$env:OPENAI_BASE_URL = "https://api.jiekou.ai/openai"
-$env:OPENAI_MODEL = "gpt-5.5"
-.\run_gpt_few_shot_sample.ps1
-```
-
-## Doubao Few-Shot Experiment
-
-```powershell
-$env:ARK_API_KEY = "your_ark_key"
-$env:ARK_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
-$env:DOUBAO_MODEL = "doubao-seed-2-1-pro-260628"
-.\run_doubao_few_shot_sample.ps1
-```
-
-If your Volcengine Ark account uses an endpoint ID, set `DOUBAO_MODEL` to the
-`ep-...` value from the console.
 
 ## Outputs
 
