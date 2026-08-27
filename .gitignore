@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Datasets and generated artifacts are intentionally excluded.
+archive.zip
+*.csv
+*.xlsx
+*.sqlite3
+*.joblib
+output/
+data/
+datasets/
+
+# Local secrets and environment files.
+.env
+*.key
+Key/
+
+# Papers, reports, and figures are outside this code release.
+*.pdf
+*.doc
+*.docx
+*.word
+*.png
+*.jpg
+*.jpeg
+*.svg
+论文*/
