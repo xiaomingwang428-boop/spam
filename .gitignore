@@ -2,8 +2,7 @@
 __pycache__/
 *.py[cod]
 
-# Datasets and generated artifacts are intentionally excluded.
-archive.zip
+# Generated artifacts are intentionally excluded.
 *.csv
 *.xlsx
 *.sqlite3

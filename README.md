@@ -6,8 +6,9 @@ This repository contains the core experiment implementation for comparing:
 - LLM zero-shot classification;
 - LLM few-shot prompting without fine-tuning.
 
-The original email datasets, generated outputs, plots, paper drafts, cached API
-responses, and keys are intentionally excluded.
+The generated outputs, plots, paper drafts, cached API responses, and keys are
+intentionally excluded. The raw dataset archive `archive.zip` is included for
+reproducible experiments.
 
 ## Files
 
@@ -16,11 +17,12 @@ responses, and keys are intentionally excluded.
 - `llm_chat_email_classifier.py`: OpenAI-compatible chat-completion experiments;
 - `run_gpt_few_shot_sample.ps1`: GPT few-shot sample runner;
 - `run_doubao_few_shot_sample.ps1`: Doubao few-shot sample runner;
-- `requirements.txt`: Python dependencies.
+- `requirements.txt`: Python dependencies;
+- `archive.zip`: raw CSV datasets used by the experiments.
 
 ## Dataset
 
-Place an `archive.zip` file in the repository root. It should contain:
+The repository includes `archive.zip`. It contains:
 
 ```text
 CEAS_08.csv
